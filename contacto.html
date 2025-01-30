@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Bienvenidos al SPA Zahara donde te cuidamos con amor.">
+    <meta name="keywords" content="spa, belleza, cuidado de la piel, masajes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/movil.css">
+    <title>SPA Zahara | Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">SPA Zahara</a></h1>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="empresa.html">Empresa</a></li>
+                    <li><a class="current" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contacto -->
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading">
+                <span class="tex-primary">Contáctanos</span>
+            </h1>
+            <p>Por favor rellene el formulario</p>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Ingresa tu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+                </div>
+
+                <button class="btn">Contactar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <i class="fa-solid fa-house-chimney-user fa-3x"></i>
+                <h3>Ubicación</h3>
+                <p>Av. Costablanca 123, Alicante, España</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-phone fa-3x"></i>
+                <h3>Teléfono</h3>
+                <p>(+34) 622 06 87 95</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-envelope fa-3x"></i>
+                <h3>Email</h3>
+                <p>contacto@spazh.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <p>Spa Zahara &copy; 2025 Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+#navbar .logo{
+    float: none;
+    text-align: center;
+}
+
+#navbar ul, #navbar ul li{
+    float: none;
+}
+
+#navbar ul li a{
+    padding: 5px;
+    border-bottom: #e0e0e0 1px solid;
+}
+
+/* Showcase */
+#showcase{
+    height: 100%;
+}
+
+#showcase .showcase-content{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* Home Info */
+#home-info .info-img{
+    display: none;
+}
+
+#home-info .info-content{
+    float: none;
+    width: 100%;
+}
+
+/* Features */
+
+.box{
+    float: none;
+    width: 100%;
+}
+
+/* Empresa */
+#about-info .info-left, #about-info .info-right{
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.l-heading{
+    text-align: center;
+}
+
+/* Contacto */
+#contact-info .box{
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+#contact-form p{
+    text-align: center;
+}
